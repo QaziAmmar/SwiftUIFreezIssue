@@ -9,9 +9,47 @@ import SwiftUI
 
 struct MenuSelectorView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack(spacing: 20) {
+                // First Menu Option
+                NavigationLink(destination: MainView()) {
+                    Text("First Menu")
+                        .font(.title2)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+
+                // Second Menu Option
+                NavigationLink(destination: MainView()) {
+                    Text("Second Menu")
+                        .font(.title2)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+
+                // Third Menu Option
+                NavigationLink(destination: MainView()) {
+                    Text("Third Menu")
+                        .font(.title2)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.orange)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+            }
+            .padding()
+            .navigationTitle("Menu Selector")
+        }
     }
 }
+
 
 #Preview {
     MenuSelectorView()

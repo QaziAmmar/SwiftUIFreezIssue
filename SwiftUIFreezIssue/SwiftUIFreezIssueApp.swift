@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUIFreezIssueApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                MenuSelectorView()
+            }
         }
     }
 }

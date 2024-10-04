@@ -11,14 +11,12 @@ struct MainView: View {
     @StateObject private var viewModel = ItemViewModel()
     
     var body: some View {
-        NavigationView {
-            ListView(viewModel: viewModel)
+            ListView(items: $viewModel.items)
                 .navigationTitle("Items")
-        }
     }
 }
 
 
 #Preview {
-    HomeView()
+    MainView()
 }
