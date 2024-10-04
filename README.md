@@ -31,3 +31,8 @@ I've encountered an interesting issue while working on a SwiftUI project, specif
 This issue raises the question of whether there is a potential conflict when using `@Environment(\.dismiss)` alongside a callback in SwiftUI.
 
 ![App Freeze Issue](freez_issue.gif)
+
+### Versions:
+- Xcode: 15.2
+- iOS: 17.2
+- macOS: 14.6.1

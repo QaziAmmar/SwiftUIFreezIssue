@@ -16,7 +16,6 @@
 		7A2F021A2CAFDA4E00BA95EB /* ListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F02192CAFDA4E00BA95EB /* ListDetail.swift */; };
 		7A2F021C2CAFDA5B00BA95EB /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F021B2CAFDA5B00BA95EB /* ListRow.swift */; };
 		7A2F021E2CAFDC9F00BA95EB /* MenuSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2F021D2CAFDC9F00BA95EB /* MenuSelectorView.swift */; };
-		7A2F02232CB0005C00BA95EB /* freez_issue.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A2F02222CB0005C00BA95EB /* freez_issue.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		7A2F02192CAFDA4E00BA95EB /* ListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetail.swift; sourceTree = "<group>"; };
 		7A2F021B2CAFDA5B00BA95EB /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 		7A2F021D2CAFDC9F00BA95EB /* MenuSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSelectorView.swift; sourceTree = "<group>"; };
-		7A2F02212CAFFE3400BA95EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7A2F02222CB0005C00BA95EB /* freez_issue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = freez_issue.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +65,6 @@
 				7A2F02122CAFD9DC00BA95EB /* Item */,
 				7A2F02082CAFD98A00BA95EB /* Assets.xcassets */,
 				7A2F020A2CAFD98A00BA95EB /* Preview Content */,
-				7A2F02212CAFFE3400BA95EB /* README.md */,
-				7A2F02222CB0005C00BA95EB /* freez_issue.gif */,
 			);
 			path = SwiftUIFreezIssue;
 			sourceTree = "<group>";
@@ -171,7 +166,6 @@
 			files = (
 				7A2F020C2CAFD98A00BA95EB /* Preview Assets.xcassets in Resources */,
 				7A2F02092CAFD98A00BA95EB /* Assets.xcassets in Resources */,
-				7A2F02232CB0005C00BA95EB /* freez_issue.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
