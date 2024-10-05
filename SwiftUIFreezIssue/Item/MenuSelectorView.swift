@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MenuSelectorView: View {
     var body: some View {
-        NavigationView {
             VStack(spacing: 20) {
                 // First Menu Option
                 NavigationLink(destination: MainView()) {
@@ -46,7 +45,6 @@ struct MenuSelectorView: View {
             }
             .padding()
             .navigationTitle("Menu Selector")
-        }
     }
 }
 
