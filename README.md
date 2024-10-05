@@ -5,6 +5,10 @@
 
 I've encountered an interesting issue while working on a SwiftUI project, specifically when using `@Environment(\.dismiss)` along with a callback function like `onSuccess: (Bool) -> Void` in a `ListDetail` view. The app starts freezing, and CPU utilization spikes to 99%.
 
+The repository now contains two branches:
+- **`issue/swiftui-freezing`**: This branch keeps the original code that reproduces the issue as encountered.
+- **`main`**: This branch contains the fixed code, which resolves the freezing problem.
+
 ### Problem:
 
 - **Scenario:**
